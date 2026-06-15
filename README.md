@@ -1,8 +1,3 @@
-# Ayascell Archive
-Solutions Library
-
-
-
 # 📚 AYASCELL Solution Library
 
 ## 📌 Hakkında
