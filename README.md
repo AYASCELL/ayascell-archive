@@ -16,7 +16,7 @@ EN: A curated collection of the most efficient technical solutions, tested and v
 Bu dosyalar AYASCELL tarafından test edilmiştir ancak her cihaz farklı konfigürasyonlara sahip olabilir. İşlem yapmadan önce cihazınızın verilerini yedeklemeniz önerilir. Oluşabilecek herhangi bir sorunda sorumluluk kullanıcıya aittir.
 
 ## 📝 Telif Hakkı (Copyright)
-Copyright © 2026 AYASCELL. Tüm hakları saklıdır. Bu kütüphanedeki içerikler eğitim ve kişisel kullanım amacıyla paylaşılmıştır. İzinsiz ticari kullanımı veya izinsiz dağıtımı yasaktır.
+Bu kütüphanedeki içerikler eğitim ve kişisel kullanım amacıyla paylaşılmıştır.
 
 ---
 *AYASCELL tarafından özenle hazırlanmıştır.*
