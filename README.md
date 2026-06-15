@@ -14,7 +14,7 @@ EN: A curated collection of the most efficient technical solutions, tested and v
 
 *   **Windows Power Settings Unhider**
     *   *Açıklama:* Bu PowerShell script, Windows’ta gizlenmiş güç yönetimi ayarlarını görünür hale getirir.
-    *   [Dosyaya Git](Link: Buraya Ekle)
+    *   [Dosyaya Git](Link: [Buraya Ekle](https://github.com/AYASCELL/ayascell-archive/blob/main/Windows-Power-Settings-Unhider))
 
 *   **Realme GCam (Google Camera) Optimize Configs**
     *   *Açıklama:* Realme modelleri için en iyi çalışan Google Camera sürümleri ve AYASCELL tarafından test edilmiş özel ayar (config) dosyaları.
