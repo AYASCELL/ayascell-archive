@@ -1,4 +1,4 @@
-# ayascell-archive
+# Ayascell Archive
 Solutions Library
 
 TR: AYASCELL tarafından test edilmiş ve düzenlenmiş, internetteki en verimli teknik çözümler koleksiyonu. Optimizasyon ve sistem iyileştirmeleri için merkezi kaynak.
