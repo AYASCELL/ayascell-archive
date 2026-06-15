@@ -1,0 +1,29 @@
+Bu PowerShell script’i, Windows işletim sisteminde gizlenmiş güç yönetimi ayarlarını görünür hale getirmek için tasarlanmıştır.
+Varsayılan olarak bazı gelişmiş güç seçenekleri (örneğin CPU güç yönetimi, USB seçici askıya alma, PCI Express ayarları) Denetim Masası’nda gizlenmiş olur.
+Bu script, ilgili kayıt defteri anahtarlarındaki Attributes değerini değiştirerek bu ayarların kullanıcıya açılmasını sağlar.
+
+# 🔧 Windows Power Settings Unhider
+> *Unlock hidden energy controls of your system*
+
+![Power Settings Banner](https://img.shields.io/badge/Windows-Power%20Tweaks-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![PowerShell](https://img.shields.io/badge/Script-PowerShell-yellow?style=for-the-badge)
+
+---
+
+## 🚀 Amaç
+Bu repo, Windows işletim sisteminde **gizlenmiş güç yönetimi ayarlarını** görünür hale getiren bir PowerShell script içerir.  
+CPU, USB, PCI Express gibi gelişmiş seçenekler artık **Denetim Masası > Güç Seçenekleri > Gelişmiş ayarlar** menüsünde görülebilir.
+
+---
+
+## ⚙️ Nasıl Çalışır?
+- `HKLM:\System\CurrentControlSet\Control\Power\PowerSettings` altındaki tüm GUID’ler taranır.  
+- `Attributes` değeri **1** olan (gizli) ayarlar **2** yapılarak görünür hale getirilir.  
+- Script yönetici yetkileriyle çalıştırılmalıdır.
+
+---
+
+## 📜 Kullanım
+```powershell
+.\Unhide-PowerSettings.ps1
