@@ -8,8 +8,7 @@ EN: A curated collection of the most efficient technical solutions, tested and v
 ## Library List
 
 1. **Windows Power Settings Unhider**
-   *TR Açıklama:* Bu PowerShell script, Windows’ta gizlenmiş güç yönetimi ayarlarını görünür hale getirir.
-   *EN Description:* This PowerShell script reveals the hidden power management settings in Windows.
+   *Açıklama:* Bu PowerShell script, Windows’ta gizlenmiş güç yönetimi ayarlarını görünür hale getirir.
    * 🔗 [Dosyaya Git](https://github.com/AYASCELL/ayascell-archive/tree/main/Windows/Windows-Power-Settings-Unhider)
 
 
