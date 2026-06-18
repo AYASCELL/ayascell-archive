@@ -97,9 +97,6 @@ wsl -l -v
 * **Administrative Privilege:** You must open the Terminal as "Administrator" for the commands to run smoothly.
 
 ---
-
 *This solution has been tested and verified by AYASCELL.*
-
-```
 
 ```
