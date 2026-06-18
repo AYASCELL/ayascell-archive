@@ -1,6 +1,3 @@
-```markdown
-<div align="center">
-
 # 🐧 Windows 11 & 10: WSL Kurulum Rehberi
 **Windows üzerinde dual-boot ile uğraşmadan Linux çalıştırmanın en kolay yolu!**
 
