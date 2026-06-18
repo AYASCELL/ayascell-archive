@@ -1,6 +1,6 @@
 # ⚡ Windows Power Settings Unhider
 
-[![Videonun Adı veya Açıklaması](https://img.youtube.com/vi/VİDEO_ID_BURAYA/maxresdefault.jpg)](https://youtu.be/FyhZCc5JPjc?si=GsII0tRKk9Fkfvm6)
+[![Video Rehber](https://img.shields.io/badge/YouTube-Videolu_Anlatımı_İzle-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/FyhZCc5JPjc?si=GsII0tRKk9Fkfvm6)
 
 ## 🇹🇷 Türkçe
 
