@@ -5,7 +5,7 @@ TR: AYASCELL tarafından test edilmiş ve düzenlenmiş, internetteki en verimli
 
 EN: A curated collection of the most efficient technical solutions, tested and verified by AYASCELL. The central library for system optimization and performance.
 
-[![AYASCELL Archive](https://img.shields.io/badge/YouTube-Ayascell_Archive_Kanalına_Git-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@AyascellArchive)
+[![AYASCELL Archive](https://img.shields.io/badge/YouTube-Ayascell_Archive-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@AyascellArchive)
 
 ## Library List
 
