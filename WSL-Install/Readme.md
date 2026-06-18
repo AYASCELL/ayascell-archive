@@ -1,5 +1,3 @@
-Al kral, hiçbir detayı atlamadan, baştan sona eksiksiz ve kopyalamaya tam hazır halini aşağıya bırakıyorum. Sağ üstteki kopyala butonuna basıp doğrudan GitHub'daki `README.md` dosyana yapıştırabilirsin.
-
 ```markdown
 <div align="center">
 
