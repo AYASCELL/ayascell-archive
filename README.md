@@ -7,9 +7,14 @@ EN: A curated collection of the most efficient technical solutions, tested and v
 
 ## Library List
 
-1. **Windows Power Settings Unhider**
+1. **Windows Power Settings Unhider | Windows ta gizli güç ayarlarını açmak**
    * *TR Açıklama:* Bu PowerShell script, Windows’ta gizlenmiş güç yönetimi ayarlarını görünür hale getirir.
    * *EN Description:* This PowerShell script reveals the hidden power management settings in Windows.
+   * 🔗 [Dosyaya Git](https://github.com/AYASCELL/Ayascell-Archive/tree/main/Windows/Windows-Power-Settings-Unhider)
+
+2. **WSL Installation Guide for Windows 10 / 11 | Windows 10 / 11 ile WSL Kurulum Rehberi**
+   * *TR Açıklama:* Windows üzerinde WSL (Windows Subsystem for Linux) kurulum adımları.
+   * *EN Description:* WSL installation steps on Windows.
    * 🔗 [Dosyaya Git](https://github.com/AYASCELL/Ayascell-Archive/tree/main/Windows/Windows-Power-Settings-Unhider)
 
 
