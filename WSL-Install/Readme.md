@@ -98,5 +98,3 @@ wsl -l -v
 
 ---
 *This solution has been tested and verified by AYASCELL.*
-
-```
