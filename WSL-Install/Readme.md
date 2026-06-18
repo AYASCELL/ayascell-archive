@@ -1,177 +1,113 @@
-# 🐧 Windows 11 & 10: WSL Kurulum Rehberi
-**Windows üzerinde dual-boot ile uğraşmadan Linux çalıştırmanın en kolay yolu!**
+Tamamdır kral, şablonu gördüm. Çok temiz ve standartlaşmış bir yapı kurmuşsun. Bütün repodaki dosyaların bu düzende olması hem profesyonel gösterir hem de okuyan kişinin aradığını şak diye bulmasını sağlar.
 
-[![Video Rehber](https://img.shields.io/badge/YouTube-Videolu_Anlatımı_İzle-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@AyascellArchive)
+Hiçbir şeyi bozmadan, WSL kurulum rehberinin "sadece çekirdek kurma ve sonradan dağıtım ekleme" versiyonunu tam olarak senin gönderdiğin bu şablona oturttum.
 
-🌍 **[Türkçe Sürüm](#-türkçe-kurulum-adımları)  |  [English Version](#-english-installation-guide)**
+Aşağıdaki kod bloğunu kopyalayıp doğrudan WSL dosyanın içindeki `README.md`'ye yapıştırabilirsin:
 
-</div>
+```markdown
+# 🐧 Windows 11 & 10 WSL Installation Guide
 
----
+## 🇹🇷 Türkçe
 
-## 🇹🇷 Türkçe Kurulum Adımları
+Windows üzerinde üçüncü parti sanallaştırma araçlarına veya dual-boot kurulumlarına ihtiyaç duymadan, doğrudan Windows çekirdeği üzerinde yerel olarak Linux çalıştırmanın en kararlı ve kolay yolu olan WSL (Windows Subsystem for Linux) kurulum rehberidir.
 
-Windows üzerinde üçüncü parti sanallaştırma araçlarına (VirtualBox, VMware vb.) veya dual-boot (çift işletim sistemi) kurulumlarına ihtiyaç duymadan, doğrudan Windows çekirdeği üzerinde yerel olarak Linux çalıştırmanın en kararlı ve kolay yolu **WSL (Windows Subsystem for Linux)** teknolojisidir.
+### 📝 Ne İşe Yarar?
+Bu rehber, Windows'un varsayılan olarak zorladığı Ubuntu kurulumunu atlayıp sadece saf WSL çekirdeğini kurmanızı ve ardından istediğiniz Linux dağıtımını (örneğin Arch Linux) manuel olarak sisteme entegre etmenizi sağlar.
 
-### 📌 Sistem Gereksinimleri
-* **Windows 10** **Windows 11** sürümü.
-* BIOS üzerinden **İşlemci Sanallaştırma (Virtualization / Intel VT-x / AMD-V)** açık olmalıdır.
+### 🚀 Nasıl Kullanılır?
+Bu işlemi gerçekleştirmek için komut satırını kullanacağız:
 
-### 🛠️ Adım Adım Kurulum
-
-**1.** Başlat menüsüne sağ tıklayıp **Terminal (Yönetici)** veya **PowerShell (Yönetici)** seçeneğini çalıştırın.
-
-**2.** Aşağıdaki komutu kopyalayıp terminale yapıştırın ve `Enter`'a basın:
+1. Başlat menüsüne sağ tıkla ve **"Terminal (Yönetici)"** veya **"PowerShell (Yönetici)"** seçeneğini çalıştır.
+2. Sisteme zorla Ubuntu kurulmasını engellemek ve sadece WSL altyapısını kurmak için aşağıdaki komutu gir:
 ```bash
 wsl --install --no-distribution
 
 ```
 
-> 💡 **Not:** *Bu komut gerekli tüm Windows alt bileşenlerini aktif edip en son WSL sürümünü herhangi bir işletim sistemi indirmeden kuracaktır.*
-
-**3.** İşlem bitince terminaldeki uyarıyı dikkate alarak bilgisayarınızı **yeniden başlatın**.
-
-
-
-
-**4.** Sistem açıldığında otomatik gelen terminal ekranında ilk yapılandırmayı yapın:
-
-* `Enter new UNIX username:` Linux içinde kullanmak istediğiniz kullanıcı adını yazın.
-* `New password:` Şifrenizi belirleyin (Güvenlik gereği yazarken ekranda görünmez, yazıp Enter'a basın).
-* `Retype new password:` Şifrenizi tekrar girin.
-
-🎉 **Tebrikler, Linux ortamınız hazır!**
-
----
-
-### 🚀 Farklı Dağıtımlar Kurmak (Opsiyonel)
-
-Eğer Ubuntu yerine veya Ubuntu'nun yanına başka bir Linux dağıtımı (örneğin Arch Linux, Debian veya Kali) kurmak isterseniz:
-
-Kurulabilecek resmi dağıtımların listesini görmek için:
+3. Kurulum bitince WSL altyapısının tam entegre olması için bilgisayarını **yeniden başlat**.
+4. Sistem açılınca Terminali tekrar yönetici olarak aç ve kuruluma hazır dağıtımları listelemek için şu komutu gir:
 
 ```bash
 wsl --list --online
 
 ```
 
-Listeden seçtiğiniz spesifik bir dağıtımı doğrudan kurmak için (Örnek: Arch Linux):
+5. Listeden istediğin dağıtımı kurmak için aşağıdaki komutu kullan (örnekte Arch Linux kurulmuştur, ismini listedekilerle değiştirebilirsin):
 
 ```bash
-wsl --install -d Arch
+wsl --install -d archlinux
 
 ```
 
-### ⚙️ Temel WSL Komutları
+*(Kurulum bitince senden bir kullanıcı adı ve şifre belirlemen istenecek. Şifre yazarken güvenlik gereği ekranda görünmez, yazıp Enter'a basman yeterlidir.)*
+6. Kurulumu ve sistem sürümünü doğrulamak için son olarak bu komutu gir:
 
-Sık sık kullanacağınız bazı temel yönetim komutları:
-
-* **Çalışan Dağıtımları Listeleme:** ```bash
-wsl --list --verbose
-
-```
-* **WSL Sürümünü Kontrol Etme:** ```bash
-wsl --status
-
-```
-
-* **Belirli Bir Dağıtımı Kapatma:** ```bash
-wsl --terminate <Dağıtım-Adı>
-
-```
-* **WSL Çekirdeğini Tamamen Kapatma:** ```bash
-wsl --shutdown
-
-```
-
-* **WSL Çekirdeğini Güncelleme:** ```bash
-wsl --update
-
-```
-
----
----
-
-## 🇬🇧 English Installation Guide
-
-**WSL (Windows Subsystem for Linux)** is the most stable and easiest way to run Linux natively on the Windows kernel without needing third-party virtualization tools (like VirtualBox, VMware) or a dual-boot setup.
-
-### 📌 System Requirements
-* **Windows 10:** Version 2004 and higher (Build 19041+) or any **Windows 11** version.
-* **CPU Virtualization (Intel VT-x / AMD-V)** must be enabled in your BIOS.
-
-### 🛠️ Step-by-Step Installation
-
-**1.** Right-click the Start menu and open **Terminal (Admin)** or **Windows PowerShell (Admin)**.
-
-**2.** Paste the following command into the terminal and press `Enter`:
 ```bash
-wsl --install
+wsl -l -v
 
 ```
 
-> 💡 **Note:** *This command enables all required Windows features, downloads the latest WSL kernel, and installs Ubuntu by default.*
+### ⚠️ Dikkat Edilmesi Gerekenler
 
-**3.** Once the process is complete, you will see a prompt in the terminal. **Restart your computer**.
-
-**4.** A terminal window will open automatically after the reboot to configure your system:
-
-* `Enter new UNIX username:` Type your desired Linux username.
-* `New password:` Set your password (it will be invisible as you type, just type and press Enter).
-* `Retype new password:` Enter your password again.
-
-🎉 **Congratulations, your Linux environment is ready!**
+* **Sistem Gereksinimleri:** Windows 10 (Sürüm 2004/Derleme 19041 ve üzeri) veya herhangi bir Windows 11 sürümü kullanıyor olmalısın.
+* **BIOS Ayarı:** Anakartının BIOS ayarlarından **İşlemci Sanallaştırma (Virtualization / AMD-V / Intel VT-x)** özelliğinin mutlaka açık (Enabled) olması gerekir.
+* **Yönetici Yetkisi:** Komutların sorunsuz çalışması için Terminali mutlaka "Yönetici olarak çalıştır" modunda açmalısın.
 
 ---
 
-### 🚀 Installing Different Distributions (Optional)
+## 🇺🇸 English
 
-If you want to install a different Linux distribution (e.g., Arch Linux, Debian) instead of or alongside Ubuntu:
+A guide to installing WSL (Windows Subsystem for Linux), the most stable and easiest way to run Linux natively on the Windows kernel without needing third-party virtualization tools or a dual-boot setup.
 
-To see a list of valid distributions:
+### 📝 What Does It Do?
+
+This guide helps you skip the default Ubuntu installation forced by Windows. It allows you to install only the pure WSL core and then manually integrate your preferred Linux distribution (e.g., Arch Linux) into the system.
+
+### 🚀 How to Use?
+
+We will use the command line to perform this action:
+
+1. Right-click the Start menu and select **"Terminal (Admin)"** or **"Windows PowerShell (Admin)"**.
+2. To prevent Windows from forcing the default Ubuntu installation and install only the WSL infrastructure, enter the following command:
+
+```bash
+wsl --install --no-distribution
+
+```
+
+3. Once the installation is complete, **restart your computer** for the WSL infrastructure to fully integrate.
+4. After rebooting, open the Terminal as administrator again and list the available distributions by entering:
 
 ```bash
 wsl --list --online
 
 ```
 
-To directly install a specific distribution (Example: Arch Linux):
+5. To install your preferred distribution from the list, use the following command (Arch Linux is used in the example, you can replace it with any name from the list):
 
 ```bash
-wsl --install -d Arch
+wsl --install -d archlinux
 
 ```
 
-### ⚙️ Basic WSL Commands
+*(Once complete, you will be prompted to set a username and password. For security reasons, the password will be invisible as you type; just type it and press Enter.)*
+6. Finally, to verify the installation and check the system version, enter this command:
 
-Some basic management commands you will frequently use:
-
-* **List Running Distributions:** ```bash
-wsl --list --verbose
-
-```
-* **Check WSL Status:** ```bash
-wsl --status
+```bash
+wsl -l -v
 
 ```
 
-* **Terminate a Specific Distro:** ```bash
-wsl --terminate 
+### ⚠️ Important Notes
 
-```
-* **Shut Down WSL Completely:** ```bash
-wsl --shutdown
-
-```
-
-* **Update WSL Kernel:** ```bash
-wsl --update
-
-```
+* **System Requirements:** You must be using Windows 10 (Version 2004/Build 19041 and higher) or any version of Windows 11.
+* **BIOS Settings:** **CPU Virtualization (Intel VT-x / AMD-V)** must be strictly enabled in your motherboard's BIOS settings.
+* **Administrative Privilege:** You must open the Terminal as "Administrator" for the commands to run smoothly.
 
 ---
-<div align="center">
-  <i>Developed and maintained by Ayascell Archive.</i>
-</div>
+
+*This solution has been tested and verified by AYASCELL.*
+
+```
 
 ```
