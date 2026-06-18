@@ -1,5 +1,7 @@
 # ⚡ Windows Power Settings Unhider
 
+* [![Video Rehber](https://img.shields.io/badge/YouTube-Videolu_Anlatımı_İzle-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/FyhZCc5JPjc?si=GsII0tRKk9Fkfvm6)
+
 ## 🇹🇷 Türkçe
 
 Windows işletim sisteminde varsayılan olarak gizlenmiş olan "Gelişmiş Güç Ayarları" (Advanced Power Settings) menüsünü tamamen görünür hale getiren PowerShell otomasyonudur.
