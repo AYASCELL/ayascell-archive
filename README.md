@@ -15,7 +15,7 @@ EN: A curated collection of the most efficient technical solutions, tested and v
 2. **WSL Installation Guide for Windows 10 / 11 | Windows 10 / 11 ile WSL Kurulum Rehberi**
    * *TR Açıklama:* Windows üzerinde WSL (Windows Subsystem for Linux) kurulum adımları.
    * *EN Description:* WSL installation steps on Windows.
-   * 🔗 [Dosyaya Git](https://github.com/AYASCELL/Ayascell-Archive/tree/main/Windows/Windows-Power-Settings-Unhider)
+   * 🔗 [Dosyaya Git](https://github.com/AYASCELL/Ayascell-Archive/tree/main/WSL-Install)
 
 
 ## ⚠️ Sorumluluk Reddi
