@@ -5,6 +5,8 @@ TR: AYASCELL tarafından test edilmiş ve düzenlenmiş, internetteki en verimli
 
 EN: A curated collection of the most efficient technical solutions, tested and verified by AYASCELL. The central library for system optimization and performance.
 
+[![Video Rehber](https://img.shields.io/badge/YouTube-Videolu_Anlatımı_İzle-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](VİDEO_LİNKİ_BURAYA)
+
 ## Library List
 
 1. **Windows Power Settings Unhider | Windows ta gizli güç ayarlarını açmak**
