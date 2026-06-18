@@ -14,7 +14,7 @@
 Windows üzerinde üçüncü parti sanallaştırma araçlarına (VirtualBox, VMware vb.) veya dual-boot (çift işletim sistemi) kurulumlarına ihtiyaç duymadan, doğrudan Windows çekirdeği üzerinde yerel olarak Linux çalıştırmanın en kararlı ve kolay yolu **WSL (Windows Subsystem for Linux)** teknolojisidir.
 
 ### 📌 Sistem Gereksinimleri
-* **Windows 10:** Sürüm 2004 ve üzeri (Derleme 19041+) veya herhangi bir **Windows 11** sürümü.
+* **Windows 10** **Windows 11** sürümü.
 * BIOS üzerinden **İşlemci Sanallaştırma (Virtualization / Intel VT-x / AMD-V)** açık olmalıdır.
 
 ### 🛠️ Adım Adım Kurulum
@@ -23,13 +23,16 @@ Windows üzerinde üçüncü parti sanallaştırma araçlarına (VirtualBox, VMw
 
 **2.** Aşağıdaki komutu kopyalayıp terminale yapıştırın ve `Enter`'a basın:
 ```bash
-wsl --install
+wsl --install --no-distribution
 
 ```
 
-> 💡 **Not:** *Bu komut gerekli tüm Windows alt bileşenlerini aktif edip en son WSL çekirdeğini ve varsayılan olarak Ubuntu'yu kuracaktır.*
+> 💡 **Not:** *Bu komut gerekli tüm Windows alt bileşenlerini aktif edip en son WSL sürümünü herhangi bir işletim sistemi indirmeden kuracaktır.*
 
 **3.** İşlem bitince terminaldeki uyarıyı dikkate alarak bilgisayarınızı **yeniden başlatın**.
+
+
+
 
 **4.** Sistem açıldığında otomatik gelen terminal ekranında ilk yapılandırmayı yapın:
 
