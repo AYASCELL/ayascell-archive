@@ -1,5 +1,5 @@
 # 🐧 Windows 11 & 10 WSL Installation Guide
-
+[![Video Rehber](https://img.shields.io/badge/YouTube-Videolu_Anlatımı_İzle-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/pCTFTsnhXHI?si=6gqLUgbU4Lokw0F8)
 ## 🇹🇷 Türkçe
 
 Windows üzerinde üçüncü parti sanallaştırma araçlarına veya dual-boot kurulumlarına ihtiyaç duymadan, doğrudan Windows çekirdeği üzerinde yerel olarak Linux çalıştırmanın en kararlı ve kolay yolu olan WSL (Windows Subsystem for Linux) kurulum rehberidir.
