@@ -19,7 +19,7 @@ EN: A curated collection of the most efficient technical solutions, tested and v
    * *TR Açıklama:* Windows üzerinde WSL (Windows Subsystem for Linux) kurulum adımları.
    * *EN Description:* WSL installation steps on Windows.
    * 🔗 [Dosyaya Git](https://github.com/AYASCELL/Ayascell-Archive/tree/main/Windows/WSL-Install)
-   * [![Video Rehber](https://img.shields.io/badge/YouTube-Videolu_Anlatımı_İzle-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/FyhZCc5JPjc?si=SjOTrWyQDak0sBBi)
+   * [![Video Rehber](https://img.shields.io/badge/YouTube-Videolu_Anlatımı_İzle-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/pCTFTsnhXHI?si=6gqLUgbU4Lokw0F8)
 
 
 ## ⚠️ Sorumluluk Reddi
