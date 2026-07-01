@@ -20,6 +20,12 @@ EN: A curated collection of the most efficient technical solutions, tested and v
    * *EN Description:* WSL installation steps on Windows.
    * 🔗 [Dosyaya Git](https://github.com/AYASCELL/Ayascell-Archive/tree/main/Windows/WSL-Install)
    * [![Video Rehber](https://img.shields.io/badge/YouTube-Videolu_Anlatımı_İzle-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/pCTFTsnhXHI?si=6gqLUgbU4Lokw0F8)
+    
+3. **Arch Linux: Automated Secure Boot Setup with systemd-boot & sbctl | Arch Linux: systemd-boot ve sbctl ile Otomatik Secure Boot Kurulumu**
+   * *TR Açıklama:* Arch Linux üzerinde systemd-boot ve sbctl kullanarak, Windows Dual-Boot'u bozmadan kendi özel Secure Boot anahtarlarınızı      nasıl oluşturup yöneteceğinizi anlatan rehber.
+   * *EN Description:* A guide on how to generate and enroll your own custom Secure Boot keys on Arch Linux using systemd-boot and sbctl
+     without breaking Windows Dual-Boot.
+   * 🔗 [Dosyaya Git](https://github.com/AYASCELL/Ayascell-Archive/tree/main/Linux/arch-systemd-boot-sbctl)
 
 
 ## ⚠️ Sorumluluk Reddi
